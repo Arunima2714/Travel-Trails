@@ -1,0 +1,286 @@
+*{
+    font-family: "Nunito Sans", sans-serif;   
+    
+}
+.navbar-brand{
+    font-family: "Lato", sans-serif;
+    
+}
+.video{
+    position: relative;
+    width: 100%;
+    height: 800px;
+   
+}
+.text h1{
+    position: absolute;
+    text-align: center;
+    top:40%;
+    left: 25%;
+    color: white;
+    font-size:65px;
+    font-weight: 700;
+}
+ #p1{
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: white;
+    top:55%;
+    left:20%;
+    font-size: 19px;
+ }
+ #p2{
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: white;
+    top:65%;
+    left:45%;
+    font-size: 19px;
+ }
+ #p3{
+    position: absolute;
+    font-family: "Roboto Serif", serif;
+    font-size: 19px;
+    font-weight: 600;
+    top:80%;
+    left:45%;
+    color: white;
+    border: 1px solid white ;
+    padding: 20px;
+ }
+#p3:hover{
+   border: 1px solid gray; 
+   background-color: gray;
+}
+.about{
+    display: flex;
+    width:100%;
+    height: 700px;
+    margin: 20px;
+}
+.cont1{
+    width:100%; 
+}
+.cont1 p{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+.p1{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+}
+.p1:hover{
+    border: 2px solid grey ;
+    background-color: grey;
+}
+h5{
+  font-family: "Philosopher", sans-serif;
+  font-size: 26px;
+}
+.container1 h1{
+    font-weight: 600;
+    font-size: 45px;
+}
+.container1 h1:hover{
+    color: gray;
+}
+
+ .container1 p{
+    font-weight: 100;
+    font-size: 25px;
+ }
+
+ .content1 img {
+    transition: filter 0.3s ease;
+}
+
+.content1 img:hover {
+    filter: brightness(80%);
+}
+.content1 h5{
+    color:black
+}
+.content1 h5:hover{
+    color: grey;
+}
+.des img{
+    transition: filter 0.3s ease;
+}
+.des img:hover{
+    filter: brightness(80%);   
+}
+.p2{
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+}  
+.container2{
+    width: 100%;
+    /* background-position:bottom; */
+    position: relative;
+} 
+.container2 h3{
+    position: absolute;
+    top:35%;
+    left:40%;
+    color:white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.p3{
+    position: absolute;
+    top:45%;
+    color: white;
+    left:30%;
+    font-weight: 400;
+}
+.p4{
+    position: absolute;
+    top:50%;
+    color:white;
+    font-weight: 400;
+    left:45%; 
+}
+.container2 img{
+    filter: brightness(60%);
+}
+.container2 i{
+    position: absolute;
+    top:55%;
+    left:49%;
+    color: white;
+    font-weight: 900;
+    font-size: 54px;
+}
+span{
+    color: green;
+}
+.container3{
+    text-align: center;
+    padding: 20px;
+}
+.cont3{
+    display: flex;
+    justify-content: center;
+}
+.cont3 input{
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+
+}
+.cont3 button{
+    padding: 10px;
+    border: 0px;
+    margin-left: 10px;
+    background: black;
+    color: white;
+}
+.cont3 button:hover {
+background-color: gray;
+}
+.icons{
+    text-align: center;
+    background-color:gray;
+    height: 300px;
+    padding: 50px;
+}
+#f1{
+    text-align: center;
+    padding: 20px;
+}
+#f2{
+    color:orangered;
+}
+#f3{
+    text-align: center;
+}
+@media only screen and (max-width: 450px) {
+    .navbar-brand {
+      font-size: 1rem; /* Adjust the size of the brand logo text */
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 0.9rem; /* Adjust the size of the nav links */
+    }
+  
+    .video video {
+      width: 450px; /* Ensure the video resizes properly */
+     
+    }
+    
+    .text h1 {
+      font-size: 1.5rem; /* Reduce the size of the main heading */
+    }
+  
+    .text p {
+      font-size: 1rem; /* Reduce the size of the paragraph text */
+    }
+  
+    .shadow img {
+      width: 100%; /* Ensure images resize properly */
+      height: auto;
+    }
+  
+    .card {
+      width: 100%; /* Ensure cards stack vertically */
+      margin-bottom: 20px;
+    }
+  
+    .des img {
+      width: 100%; /* Ensure destination images resize properly */
+      height: auto;
+    }
+  
+    .d-flex {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center items horizontally */
+    }
+  
+    .container1 h1 {
+      font-size: 1.25rem; /* Adjust heading size */
+    }
+    .about img{
+        width:250px;
+
+    }
+    .about{
+        flex-wrap: wrap;
+        height: 1000px;
+    }
+    .about p{
+        font-size: smaller;
+
+
+    }
+    .content1 img{
+        width:150px;
+    }
+    .container2 h3{
+        font-size: smaller;
+    }
+   .container2 i{
+    font-size: smaller;
+   }
+   .container3{
+    height: 200px;
+   }
+   .c1 img{
+    width: 350px;
+   }
+   .c2 img{
+    width: 350px;
+   }
+   .c3 img{
+    width: 350px;
+   }
+   
+   
+  }
+  
